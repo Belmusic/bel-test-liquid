@@ -1,8 +1,10 @@
 {
   "current": {
+    "logo": "shopify:\/\/shop_images\/Negative_Blanks.png",
+    "logo_width": 110,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
-    "type_body_font": "assistant_n4",
+    "type_body_font": "helvetica_n4",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
@@ -168,6 +170,20 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "main-register": {
+        "type": "main-register",
+        "settings": {
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
+      },
+      "main-login": {
+        "type": "main-login",
+        "settings": {
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
       }
     },
     "content_for_index": [
@@ -186,7 +202,7 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#121212",
+          "text": "#353941",
           "button": "#121212",
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",

@@ -1,78 +1,64 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "d736fb7f-1d49-41ee-9e21-e22d63788b17": {
+      "type": "rich-text",
       "blocks": {
-        "heading": {
+        "template--16326401032343__d736fb7f-1d49-41ee-9e21-e22d63788b17-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Solid Grooves",
             "heading_size": "h0"
           }
         },
-        "text": {
+        "template--16326401032343__d736fb7f-1d49-41ee-9e21-e22d63788b17-text-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>Solid Grooves Records audaciously introduces itself as one of the UK's finest House & Techno labels, a bold statement backed up by its hugely popular residencies in both Ibiza and London.<\/p><p>The recipe is simple, but efficient: Solid Grooves Records provides a signature heavy duty sound from a tight knit family of core artists, whilst championing emerging and prospering artists.  The label's sights are firmly set on the horizon, with a commitment to pursue dance-floor material which is both tasteful and effective, and to set the scene for a new breed of talent.<\/p>"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "template--16326401032343__d736fb7f-1d49-41ee-9e21-e22d63788b17-heading-1",
+        "template--16326401032343__d736fb7f-1d49-41ee-9e21-e22d63788b17-text-1"
+      ],
+      "custom_css": [
+        "body {font-size: 12px;}"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 40
       }
     },
-    "58f85d0b-2ded-493b-b0d4-d39b7e81c609": {
+    "edd90eea-15a8-460d-ac9e-17bcae72cf61": {
       "type": "collection-list",
       "blocks": {
-        "template--16326401032343__58f85d0b-2ded-493b-b0d4-d39b7e81c609-featured_collection-1": {
+        "template--16326401032343__edd90eea-15a8-460d-ac9e-17bcae72cf61-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "christmas-collection"
+            "collection": "solid-grooves-collection"
           }
         },
-        "template--16326401032343__58f85d0b-2ded-493b-b0d4-d39b7e81c609-featured_collection-2": {
+        "template--16326401032343__edd90eea-15a8-460d-ac9e-17bcae72cf61-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "clothing"
+            "collection": ""
           }
         },
-        "template--16326401032343__58f85d0b-2ded-493b-b0d4-d39b7e81c609-featured_collection-3": {
+        "template--16326401032343__edd90eea-15a8-460d-ac9e-17bcae72cf61-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "albums"
+            "collection": ""
           }
         }
       },
       "block_order": [
-        "template--16326401032343__58f85d0b-2ded-493b-b0d4-d39b7e81c609-featured_collection-1",
-        "template--16326401032343__58f85d0b-2ded-493b-b0d4-d39b7e81c609-featured_collection-2",
-        "template--16326401032343__58f85d0b-2ded-493b-b0d4-d39b7e81c609-featured_collection-3"
+        "template--16326401032343__edd90eea-15a8-460d-ac9e-17bcae72cf61-featured_collection-1",
+        "template--16326401032343__edd90eea-15a8-460d-ac9e-17bcae72cf61-featured_collection-2",
+        "template--16326401032343__edd90eea-15a8-460d-ac9e-17bcae72cf61-featured_collection-3"
       ],
       "settings": {
         "title": "Collections",
@@ -82,216 +68,14 @@
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "d3c3b204-d3e7-40bd-83f7-7ee916bb361c": {
-      "type": "collage",
-      "blocks": {
-        "template--16046980497559__d3c3b204-d3e7-40bd-83f7-7ee916bb361c-16814572638474c19b-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2020-12-02_at_18.39.07.png"
-          }
-        },
-        "template--16046980497559__d3c3b204-d3e7-40bd-83f7-7ee916bb361c-16814572638474c19b-1": {
-          "type": "product",
-          "settings": {
-            "product": "0025-small",
-            "second_image": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16046980497559__d3c3b204-d3e7-40bd-83f7-7ee916bb361c-16814572638474c19b-0",
-        "template--16046980497559__d3c3b204-d3e7-40bd-83f7-7ee916bb361c-16814572638474c19b-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
-    "58f85d0b-2ded-493b-b0d4-d39b7e81c609",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn",
-    "d3c3b204-d3e7-40bd-83f7-7ee916bb361c"
+    "d736fb7f-1d49-41ee-9e21-e22d63788b17",
+    "edd90eea-15a8-460d-ac9e-17bcae72cf61"
   ]
 }

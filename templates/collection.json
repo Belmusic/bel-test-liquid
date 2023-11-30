@@ -8,18 +8,27 @@
         "color_scheme": "background-1"
       }
     },
+    "8f379f9f-8d1f-4ecd-a0ca-d20e13b24399": {
+      "type": "metaobject",
+      "settings": {
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
+        "color_scheme": "",
         "image_ratio": "adapt",
+        "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "enable_filtering": true,
+        "filter_type": "horizontal",
         "enable_sorting": true,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -27,6 +36,7 @@
   },
   "order": [
     "banner",
+    "8f379f9f-8d1f-4ecd-a0ca-d20e13b24399",
     "product-grid"
   ]
 }
